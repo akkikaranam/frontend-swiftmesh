@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-swiftmesh/static/css/main.e6c13ad2.css",
+    "main.js": "/frontend-swiftmesh/static/js/main.19c25f1f.js",
+    "index.html": "/frontend-swiftmesh/index.html",
+    "main.e6c13ad2.css.map": "/frontend-swiftmesh/static/css/main.e6c13ad2.css.map",
+    "main.19c25f1f.js.map": "/frontend-swiftmesh/static/js/main.19c25f1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.19c25f1f.js"
+  ]
+}
