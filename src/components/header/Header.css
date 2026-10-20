@@ -1,0 +1,65 @@
+.site-header {
+    border-bottom: 1px solid var(--line);
+    background-color: var(--background);
+}
+
+.site-header .header-content {
+    width: 90%;
+    max-width: 1160px;
+    min-height: 74px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.site-header .logo-icon {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 3px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 10px;
+}
+
+.site-header .contact-button {
+    display: inline-block;
+    padding: 12px 19px;
+    border-radius: 22px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.site-header .contact-button:hover {
+    background-color: var(--light-blue);
+}
+
+@media (max-width: 600px) {
+    .site-header .header-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 18px 0;
+    }
+
+    .site-header .contact-button {
+        margin-left: auto;
+    }
+}
