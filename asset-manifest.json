@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/frontend-swiftmesh/static/css/main.e6c13ad2.css",
-    "main.js": "/frontend-swiftmesh/static/js/main.19c25f1f.js",
+    "main.css": "/frontend-swiftmesh/static/css/main.c98a8548.css",
+    "main.js": "/frontend-swiftmesh/static/js/main.8b50e446.js",
     "index.html": "/frontend-swiftmesh/index.html",
-    "main.e6c13ad2.css.map": "/frontend-swiftmesh/static/css/main.e6c13ad2.css.map",
-    "main.19c25f1f.js.map": "/frontend-swiftmesh/static/js/main.19c25f1f.js.map"
+    "main.c98a8548.css.map": "/frontend-swiftmesh/static/css/main.c98a8548.css.map",
+    "main.8b50e446.js.map": "/frontend-swiftmesh/static/js/main.8b50e446.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.19c25f1f.js"
+    "static/css/main.c98a8548.css",
+    "static/js/main.8b50e446.js"
   ]
 }
