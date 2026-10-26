@@ -1,0 +1,39 @@
+.detail-page {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 85px 0 110px;
+    text-align: center;
+}
+
+.detail-page .intro {
+    max-width: 650px;
+    margin: 0 auto 35px;
+}
+
+.detail-page .detail-image {
+    width: 100%;
+    margin-bottom: 55px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.detail-page .detail-content {
+    text-align: left;
+}
+
+.detail-page .detail-content h2 {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.detail-page .detail-content p,
+.detail-page .detail-list {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.detail-page .detail-list {
+    margin-bottom: 30px;
+}

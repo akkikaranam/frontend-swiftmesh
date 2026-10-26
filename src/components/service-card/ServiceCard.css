@@ -1,0 +1,27 @@
+.service-card {
+    min-height: 225px;
+    padding: 24px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background-color: var(--card);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--card-hover);
+}
+
+.service-card .service-hero {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: var(--icon-background);
+    color: var(--light-blue);
+}
+
+.service-card p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.65;
+}

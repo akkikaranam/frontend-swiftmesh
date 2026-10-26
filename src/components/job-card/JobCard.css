@@ -1,0 +1,27 @@
+.job-card {
+    width: 30%;
+    min-height: 205px;
+    margin-bottom: 20px;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background-color: var(--card);
+}
+
+.job-card h3 {
+    min-height: 42px;
+    line-height: 1.35;
+}
+
+.job-card p:not(.cards-title) {
+    margin-bottom: 20px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+    .job-card {
+        width: 100%;
+    }
+}

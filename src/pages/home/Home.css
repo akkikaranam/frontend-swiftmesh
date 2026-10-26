@@ -1,0 +1,160 @@
+.page-home #hero {
+    width: 90%;
+    max-width: 1160px;
+    min-height: 470px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background-image: radial-gradient(var(--dots) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.page-home #capabilities {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto 115px;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--card);
+}
+
+.page-home #capabilities .info-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.page-home #capabilities .info-label {
+    margin: 0;
+    font-size: 16px;
+}
+
+.page-home #capabilities h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.page-home .page-section {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto 130px;
+    text-align: center;
+}
+
+.page-home .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    text-align: left;
+}
+
+.page-home #insights .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-home #insights .article-cards {
+    width: 100%;
+}
+
+.page-home .expertise-section {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto 135px;
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.page-home .expertise-section img {
+    width: 48%;
+    border-radius: 12px;
+}
+
+.page-home .expertise-text {
+    width: 45%;
+    min-width: 0;
+}
+
+.page-home .expertise-text h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.page-home .expertise-text p, .page-home #hiring p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.page-home .expertise-text .sub-text1 {
+    color: var(--light-blue);
+}
+
+.page-home .industry-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.page-home .industry-row span {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: var(--card);
+    color: var(--white);
+    font-size: 12px;
+}
+
+.page-home #hiring {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto 110px;
+    padding: 75px 25px;
+    border-radius: 13px;
+    text-align: center;
+    background: linear-gradient(110deg, var(--gradient-start), var(--gradient-end));
+}
+
+.page-home #hiring h2 {
+    margin-bottom: 10px;
+}
+
+.page-home #hiring .sub-text1 {
+    color: var(--banner-label);
+}
+
+@media (max-width: 600px) {
+    .page-home #hero {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .page-home #capabilities {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    .page-home .cards, .page-home #insights .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .page-home .expertise-section {
+        flex-direction: column;
+    }
+
+    .page-home .expertise-section img, .page-home .expertise-text {
+        width: 100%;
+    }
+
+    .page-home .expertise-text, .page-home .expertise-text h2 {
+        text-align: center;
+    }
+}

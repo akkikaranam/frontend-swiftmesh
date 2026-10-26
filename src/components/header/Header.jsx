@@ -1,20 +1,21 @@
-import "./Header.css";
+import { Link } from "react-router-dom";
 import Navigation from "../navigation/Navigation";
+import "./Header.css";
 
 const Header = () => {
     return (
         <header className="site-header">
             <div className="header-content">
-                <a className="logo" href="index.html">
+                <Link className="logo" to="/">
                     <span className="logo-icon">S</span>
                     SWIFTMESH
-                </a>
+                </Link>
 
                 <Navigation />
 
-                <a className="contact-button" href="contact.html">
+                <Link className="contact-button" to="/contact">
                     Let's Talk
-                </a>
+                </Link>
             </div>
         </header>
     );

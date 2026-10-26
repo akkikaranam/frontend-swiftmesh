@@ -1,27 +1,23 @@
+import { NavLink } from "react-router-dom";
 import "./Navigation.css";
-
 const Navigation = () => {
-    return (
-        <nav className="main-nav">
-            <ul>
-                <li>
-                    <a href="services.html">Services</a>
-                    <span className="nav-divider">|</span>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                    <span className="nav-divider">|</span>
-                </li>
-                <li>
-                    <a href="insights.html">Insights</a>
-                    <span className="nav-divider">|</span>
-                </li>
-                <li>
-                    <a href="careers.html">Careers</a>
-                </li>
-            </ul>
-        </nav>
-    );
+  return (
+    <nav className="main-nav">
+      <ul>
+        <li>
+          <NavLink to="/services">Services</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/insights">Insights</NavLink>
+        </li>
+        <li>
+          <NavLink to="/careers">Careers</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 };
-
 export default Navigation;

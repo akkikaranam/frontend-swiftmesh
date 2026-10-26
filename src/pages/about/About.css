@@ -1,0 +1,83 @@
+.page-about #about-hero {
+    width: 90%;
+    max-width: 1160px;
+    margin: auto;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background-image: radial-gradient(var(--dots) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.page-about #mission {
+    padding: 90px 5%;
+    text-align: center;
+    background-color: var(--card-light);
+}
+
+.page-about .value-cards, .page-about .team-cards {
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    text-align: left;
+}
+
+.page-about .value-cards .info-card {
+    width: 32%;
+    min-height: 190px;
+}
+
+.page-about #the-method {
+    width: 90%;
+    max-width: 950px;
+    margin: 105px auto;
+    text-align: center;
+}
+
+.page-about #the-method > .info-card {
+    margin-bottom: 14px;
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    column-gap: 18px;
+    text-align: left;
+    background-color: var(--card);
+}
+
+.page-about #the-method > .info-card .info-label {
+    grid-row: span 2;
+    align-self: center;
+    margin: 0;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+}
+
+.page-about #leadership {
+    padding: 90px 5% 45px;
+    text-align: center;
+    background-color: var(--card-light);
+}
+
+.page-about #consultance {
+    padding: 0 5% 80px;
+    text-align: center;
+    background-color: var(--card-light);
+}
+
+.page-about #consultance h2 {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .page-about #about-hero, .page-about .value-cards, .page-about .team-cards {
+        flex-direction: column;
+    }
+    .page-about .value-cards .info-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.article-cards {
+    width: 31%;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background-color: var(--card);
+}
+
+.article-cards img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.article-cards .article-text {
+    padding: 18px;
+}
+
+.article-cards h3 {
+    min-height: 43px;
+    line-height: 1.35;
+}
+
+.article-cards p:not(.cards-title) {
+    color: var(--text);
+    font-size: 12px;
+}
+
+.article-cards p:empty {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .article-cards {
+        width: 100%;
+    }
+}

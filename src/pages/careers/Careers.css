@@ -1,0 +1,100 @@
+.page-careers #careers-hero {
+    width: 90%;
+    max-width: 1160px;
+    margin: auto;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background-image: radial-gradient(var(--dots) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.page-careers #culture {
+    padding: 90px 5%;
+    text-align: center;
+    background-color: var(--card-light);
+}
+
+.page-careers .culture-cards {
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    text-align: left;
+}
+
+.page-careers .culture-cards .info-card {
+    width: 32%;
+    min-height: 165px;
+}
+
+.page-careers #open-positions {
+    width: 90%;
+    max-width: 1160px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.page-careers .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.page-careers #stay-connected {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto 100px;
+    padding: 65px 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--card-light);
+}
+
+.page-careers #stay-connected h2 {
+    margin-bottom: 10px;
+}
+
+.page-careers #stay-connected p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.65;
+}
+.page-careers .job-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.page-careers .job-filters button {
+    padding: 9px 14px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background-color: transparent;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 11px;
+}
+
+.page-careers .job-filters .selected-filter {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+@media (max-width: 600px) {
+    .page-careers #careers-hero, .page-careers .culture-cards, .page-careers .job-list {
+        flex-direction: column;
+    }
+
+    .page-careers .culture-cards .info-card {
+        width: 100%;
+    }
+}
+

@@ -1,65 +1,58 @@
 .site-header {
-    border-bottom: 1px solid var(--line);
-    background-color: var(--background);
+  border-bottom: 1px solid var(--line);
+  background: var(--background);
 }
 
 .site-header .header-content {
-    width: 90%;
-    max-width: 1160px;
-    min-height: 74px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 90%;
+  max-width: 1160px;
+  min-height: 74px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .site-header .logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    color: var(--white);
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    white-space: nowrap;
-    text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
 }
 
 .site-header .logo-icon {
-    display: inline-block;
-    padding: 3px 6px;
-    border-radius: 3px;
-    background-color: var(--blue);
-    color: var(--white);
-    font-size: 10px;
+  display: inline-block;
+  padding: 3px 6px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 10px;
 }
 
 .site-header .contact-button {
-    display: inline-block;
-    padding: 12px 19px;
-    border-radius: 22px;
-    background-color: var(--blue);
-    color: var(--white);
-    font-size: 12px;
-    font-weight: bold;
-    white-space: nowrap;
-    text-decoration: none;
+  padding: 12px 19px;
+  border-radius: 22px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 .site-header .contact-button:hover {
-    background-color: var(--light-blue);
+  background: #1667e6;
 }
 
 @media (max-width: 600px) {
-    .site-header .header-content {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 12px;
-        padding: 18px 0;
-    }
-
-    .site-header .contact-button {
-        margin-left: auto;
-    }
+  .site-header .header-content {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px 0;
+  }
+  .site-header .contact-button {
+    margin-left: auto;
+  }
 }
