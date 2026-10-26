@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/frontend-swiftmesh/static/css/main.c98a8548.css",
-    "main.js": "/frontend-swiftmesh/static/js/main.8b50e446.js",
+    "main.css": "/frontend-swiftmesh/static/css/main.8421afcc.css",
+    "main.js": "/frontend-swiftmesh/static/js/main.93b08e7a.js",
+    "static/media/career.jpg": "/frontend-swiftmesh/static/media/career.25482b9d4e44b89a220c.jpg",
+    "static/media/about1.jpg": "/frontend-swiftmesh/static/media/about1.59aa8c27cd7bf623bc7f.jpg",
+    "static/media/ladypc.jpg": "/frontend-swiftmesh/static/media/ladypc.5105575c0979ef5b3cc0.jpg",
+    "static/media/insights3.jpg": "/frontend-swiftmesh/static/media/insights3.1582cb6597561a7cc760.jpg",
+    "static/media/insights6.jpg": "/frontend-swiftmesh/static/media/insights6.1f449c7fea6afb6a06c7.jpg",
+    "static/media/insights7.jpg": "/frontend-swiftmesh/static/media/insights7.a183c32610e0440efaff.jpg",
+    "static/media/insights1.jpg": "/frontend-swiftmesh/static/media/insights1.05a9dd6ba354cb79bfd2.jpg",
+    "static/media/team.jpg": "/frontend-swiftmesh/static/media/team.d6224e9e035a179b1efa.jpg",
+    "static/media/insights4.jpg": "/frontend-swiftmesh/static/media/insights4.8acafb0090c4ca7a7337.jpg",
+    "static/media/table.jpg": "/frontend-swiftmesh/static/media/table.f88371d02fd2339f238a.jpg",
+    "static/media/cube.jpg": "/frontend-swiftmesh/static/media/cube.886f93b9db8e635900db.jpg",
+    "static/media/holoscreens.jpg": "/frontend-swiftmesh/static/media/holoscreens.c0f1b24984b13bdbbe34.jpg",
+    "static/media/insights5.jpg": "/frontend-swiftmesh/static/media/insights5.ae520362eacb6f5378cf.jpg",
+    "static/media/about2.jpg": "/frontend-swiftmesh/static/media/about2.96eeb25e815819e41a36.jpg",
+    "static/media/insights2.jpg": "/frontend-swiftmesh/static/media/insights2.177f37805a3435e5928e.jpg",
+    "static/media/about4.jpg": "/frontend-swiftmesh/static/media/about4.0a0f8587b9706b5ab318.jpg",
+    "static/media/about3.jpg": "/frontend-swiftmesh/static/media/about3.fe227605852e16eb933c.jpg",
     "index.html": "/frontend-swiftmesh/index.html",
-    "main.c98a8548.css.map": "/frontend-swiftmesh/static/css/main.c98a8548.css.map",
-    "main.8b50e446.js.map": "/frontend-swiftmesh/static/js/main.8b50e446.js.map"
+    "main.8421afcc.css.map": "/frontend-swiftmesh/static/css/main.8421afcc.css.map",
+    "main.93b08e7a.js.map": "/frontend-swiftmesh/static/js/main.93b08e7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c98a8548.css",
-    "static/js/main.8b50e446.js"
+    "static/css/main.8421afcc.css",
+    "static/js/main.93b08e7a.js"
   ]
 }
